@@ -11,7 +11,10 @@
   <h1>pagina principal vista</h1>
   <?php
   require 'src/vista/menu.php'; ?>
-  <p><?php var_dump($this->datos); ?></p>
+  <pre>
+  <?php var_dump($this->datos); ?>
+</pre>
+
 </body>
 
 </html>

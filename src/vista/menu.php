@@ -1,3 +1,3 @@
 <ul>
-  <li><a href="">hola</a></li>
+  <li><a href="index.php?c=persona&m=listar">Listar Personas</a></li>
 </ul>
