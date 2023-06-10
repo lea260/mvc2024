@@ -1,31 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 5.1.1
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1:3307
--- Generation Time: Jun 10, 2023 at 08:05 PM
--- Server version: 10.4.22-MariaDB
--- PHP Version: 7.4.27
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Database: `e01`
---
-DROP DATABASE IF EXISTS `e02`;
-CREATE DATABASE IF NOT EXISTS `e02 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE `e02`;
-
-
-
 CREATE TABLE `productos` (
   `id_productos` int(11) NOT NULL,
   `codigo` varchar(45) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -34,7 +6,6 @@ CREATE TABLE `productos` (
   `fecha` date DEFAULT NULL,
   `url` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
 
 INSERT INTO `productos` (`id_productos`, `codigo`, `descripcion`, `precio`, `fecha`, `url`) VALUES
 (1, 'codigo01edita', 'descripcion26editado', '26.00', '2021-09-15', ''),
