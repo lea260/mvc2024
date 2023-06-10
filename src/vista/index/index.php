@@ -9,10 +9,10 @@
 
 <body>
   <h1>pagina principal vista</h1>
-  <ul>
-    <li><a href="">hola</a></li>
-  </ul>
+  <?php
+  require 'src/vista/menu.php'; ?>
 
+  <p><?php echo $this->datos; ?></p>
 </body>
 
 </html>
