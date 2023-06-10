@@ -11,7 +11,6 @@
   <h1>pagina principal vista</h1>
   <?php
   require 'src/vista/menu.php'; ?>
-
   <p><?php echo $this->datos; ?></p>
 </body>
 
