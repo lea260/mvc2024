@@ -4,7 +4,7 @@
 $c              = $_GET['c'] ?? "index";
 $m              = $_GET['m'] ?? "index";
 $con            = ucfirst($c) . "_Controller";
-$controllerPath = 'src/cotrolador/' . $con . ".php";
+$controllerPath = 'src/controlador/' . $con . ".php";
 require_once $controllerPath;
 $controller = new $con();
 $controller->{$m}();
