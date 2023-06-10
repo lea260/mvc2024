@@ -1,8 +1,14 @@
 <?php
-class Index_Controller
+
+
+
+use Leandro\app\libs\Controlador;
+
+class Index_Controller extends Controlador
 {
   public function index()
   {
-    echo "con index m index ";
+    //echo "con index m index ";
+    $this->cargarVista("index/index", "dato demo");
   }
 }
