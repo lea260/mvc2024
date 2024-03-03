@@ -1,10 +1,10 @@
 {
     "license": "proprietary",
-    "name": "leandro/app",
+    "name": "empresa/app",
     "description": "descripcion",
     "autoload": {
         "psr-4": {
-            "Leandro\\app\\": "src/"
+            "Empresa\\app\\": "src/"
         }
     },
     "require": {}
