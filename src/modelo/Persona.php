@@ -1,6 +1,6 @@
 <?php
 
-namespace Leandro\app\modelo;
+namespace Empresa\app\modelo;
 
 class Persona
 {
@@ -15,7 +15,7 @@ class Persona
     $this->edad = $edad;
   }
 
-  public function listar()
+  public static function listar()
   {
     $lista[] = new Persona("Diego", "Forlan", 45);
     $lista[] = new Persona("Ana", "Clara", 22);

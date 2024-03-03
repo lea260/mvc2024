@@ -2,7 +2,7 @@
 
 
 
-use Leandro\app\libs\Controlador;
+use Empresa\app\libs\Controlador;
 
 class Index_Controller extends Controlador
 {

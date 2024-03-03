@@ -1,15 +1,14 @@
 <?php
 
-use Leandro\app\libs\Controlador;
-use Leandro\app\modelo\Persona;
+use Empresa\app\modelo\Persona;
+use Empresa\app\libs\Controlador;
 
 class Persona_Controller extends Controlador
 {
 
   public function listar()
   {
-    $modelo = new Persona();
-    $lista = $modelo->listar();
+    $lista = Persona::listar();
     $this->cargarVista("persona/listar", $lista);
   }
 }
